@@ -11,5 +11,9 @@ public class StudentController {
 	public String display() {
 		return "<h1>Hi</h1>";
 	}
+	
+	
+	
+	
 
 }
