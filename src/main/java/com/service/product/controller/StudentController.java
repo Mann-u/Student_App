@@ -15,5 +15,10 @@ public class StudentController {
 	public String print() {
 		return "<h1>Hello</h1>";
 	}
+	
+	@GetMapping("/tacos")
+	public String tacos() {
+		return "<h1>Tacos</h1>";
+	}
 
 }
